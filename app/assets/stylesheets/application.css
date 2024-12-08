@@ -8,3 +8,59 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
+html {
+  width: 100%;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: Helvetica;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+h1 {
+  flex: 0 0 40px;
+  margin: 0;
+  padding: 0;
+  font-size: 32px/40px;
+  text-align: center;
+  color: #eee;
+}
+h1:hover{
+  color: #888;
+}
+footer {
+  flex: 0 0 40px;
+  color: #eee;
+  height: 40px;
+  text-align: center;
+}
+footer:hover {
+  color: #888;
+}
+footer a {
+  color: #eef;
+}
+footer:hover a {
+  color: #88f;
+}
+main {
+  flex-grow: 1;
+  overflow-y: auto;
+}
+trix-toolbar {
+  background: #fff;
+  position: sticky;
+  top: 0;
+}
+trix-editor {
+  border: none;
+  padding: 10%;
+  width: 80%;
+  font-family: Helvetica;
+  font-size: 92px;
+  outline: none;
+}
