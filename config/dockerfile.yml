@@ -5,4 +5,5 @@ options:
   label:
     fly_launch_runtime: rails
   litefs: true
+  sentry: true
   tigris: true
